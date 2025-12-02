@@ -1,7 +1,7 @@
 
 <meta charset="UTF-8">
 <script>
-  // NOMES DOS INTEGRANTES DO GRUPO:
+  // NOMES DOS INTEGRANTES DO GRUPO: Miguel Arcanjo, Renato e  Carlos
   
   /* PROBLEMA 1: Programe as seguintes funções:
 
@@ -21,9 +21,27 @@ dê uma olhada no arquivo "atividade_programacao-1info1.pdf" para maior clareza.
 */
 
 // Função
+function f(x){
+  const y = 2*x**2 - 3*x + 8 ;
+  return y
+
+}
+function g(x){
+if(x >= 1){
+  const y = 3*x - 8;
+  return y 
+}
+else if (x < 1){
+  const y = -2*x**2 + 8*x;
+  return y 
+}
+
+}
 
 // Aplicação
+const aplicaF = f(-3)
+const aplicaG = g(5)
 
 // Mostra resultado
-  
+  alert(`A função f(x)=-3 aplicada é ${aplicaF}\nA função g(x) = 5 aplicada é ${aplicaG}`)
 </script>

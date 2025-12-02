@@ -1,7 +1,8 @@
 
 <meta charset="UTF-8">
 <script>
-  // NOMES DOS INTEGRANTES DO GRUPO:
+  // NOMES DOS INTEGRANTES DO GRUPO: Miguel Arcanjo, Renato e  Carlos
+
 
   
   /* PROBLEMA 2:
@@ -14,12 +15,18 @@ colônia inicialmente com 30 bactérias.
 
 
 // Função
-
+function bactéria(n , t){
+  let y = n
+  for (let i = 1; i <= t ; i = i + 2) {
+     y = y * 3
+  }
+  return y 
+}
 
 // Aplicação
-
+const aplicada = bactéria(30 , 30 )
 
 // Mostra resultado
-
+alert(aplicada)
 
 </script>
